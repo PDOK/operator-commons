@@ -1,0 +1,9 @@
+apiVersion: pdok.nl/v1
+kind: OwnerInfo
+metadata:
+  labels:
+    app.kubernetes.io/name: operator-commons
+    app.kubernetes.io/managed-by: kustomize
+  name: ownerinfo-sample
+spec:
+  # TODO(user): Add fields here
